@@ -30,7 +30,7 @@
     },
     "headNodeSize": {
       "type": "string",
-      "defaultValue": "Standard_A8",
+      "defaultValue": "Standard_H16r",
       "allowedValues": [
         "Standard_A4",
         "Standard_A7",
@@ -49,7 +49,8 @@
         "Standard_G5",
         "Standard_GS3",
         "Standard_GS4",
-        "Standard_GS5"
+        "Standard_GS5",
+        "Standard_H16r"
       ],
       "metadata": {
         "description": "Size of the head node."
@@ -57,7 +58,7 @@
     },
     "workerNodeSize": {
       "type": "string",
-      "defaultValue": "Standard_A9",
+      "defaultValue": "Standard_H16r",
       "allowedValues": [
         "Standard_A1",
         "Standard_A2",
@@ -99,7 +100,8 @@
         "Standard_GS2",
         "Standard_GS3",
         "Standard_GS4",
-        "Standard_GS5"
+        "Standard_GS5",
+        "Standard_H16r"
       ],
       "metadata": {
         "description": "Size of the worker nodes."
@@ -114,7 +116,7 @@
     },
     "dataDiskSize": {
       "type": "int",
-      "defaultValue": 128,
+      "defaultValue": 64,
       "metadata": {
         "description": "The size in GB of each data disk that is attached to the VM.  A RAID-0 volume is created with all data disks that is dataDiskSize * dataDiskCount in size."
       }
