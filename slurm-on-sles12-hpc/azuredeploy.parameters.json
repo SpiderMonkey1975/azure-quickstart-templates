@@ -15,10 +15,10 @@
       "value": "hpc"
     },
     "headNodeSize": {
-      "value": "Standard_A8"
+      "value": "Standard_H16r"
     },
     "workerNodeSize": {
-      "value": "Standard_A9"
+      "value": "Standard_H16r"
     },
     "workerNodeCount": {
       "value": 2
