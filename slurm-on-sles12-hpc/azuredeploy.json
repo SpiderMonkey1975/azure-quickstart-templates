@@ -124,7 +124,7 @@
   },
   "variables": {
     "imagePublisher": "SUSE",
-    "imageOffer": "SLES-HPC",
+    "imageOffer": "SLES-SP3-HPC",
     "slesOSVersion": "12",
     "newStorageAccountName": "[concat('st', uniqueString(resourceGroup().id))]",
     "vmStorageAccountContainerName": "vhd",
